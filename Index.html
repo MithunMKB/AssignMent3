@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fruit Burst</title>
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" href="./images/logo.png" />
+    <!-- Lato Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .font-lato {
+        font-family: "Lato", sans-serif;
+      }
+    </style>
+    <!-- Tailwind and DaisyUI Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="font-lato">
+    <!-- Header section Start -->
+    <header>
+      <!-- Navbar Section -->
+      <nav class="bg-[#F85559] mx-auto max-w-screen-xl rounded-[600px] mx[240px] my-[50px] text-white">
+        <div class="py-6 flex justify-between items-center container">
+            <div class="flex-1 text-xl">
+                <a class="pr-7" href="">Home</a>
+                <a class="pr-7"  href="">About Us</a>
+                <a class="pr-7" href="">Shop</a>
+                <a class="pr-7" href="">All Fruits</a>
+              </div>
+              <div class="flex flex-1 items-center">
+                <img src="./images/logo.png" alt="" />
+                <h3 class="pl-4 text-4xl">Fruit Brust</h3>
+              </div>
+              <div class="flex-1">
+                <input type="Search here" />
+              </div>
+        </div>
+      </nav>
+      <!-- Banner Section -->
+      <section>
+        <!-- carousel -->
+        <div>
+            <div class="carousel max-w-screen-xl w-full">
+              <!-- slide 1 -->
+                <div id="slide1" class="carousel-item relative w-full">
+                  <div class="hero min-h-screen" style="background-image: url('./images/banner1.png');">
+                    <div class="hero-overlay bg-opacity-60"></div>
+                    <div class="hero-content text-center text-neutral-content">
+                      <div class="max-w-md">
+                        <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+                        <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <button class="btn btn-primary">Get Started</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="/images/banner2.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img src="/images/banner3.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img src="/images/banner4.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div>
+
+        </div>
+      </section>
+    </header>
+    <!-- Header section End -->
+    <!-- Main Section Start -->
+    <main></main>
+    <!-- Main Section End -->
+    <!-- Footer Section Start -->
+    <footer></footer>
+    <!-- Footer Section End -->
+  </body>
+</html>
